@@ -1,0 +1,23 @@
+==================================================
+🧬 DOCKING METHODOLOGY COMPARISON REPORT
+Target Protein: EGFR T790M | Target Residue: Cys797
+==================================================
+
+1. COMPUTATIONAL EFFICIENCY
+   - AutoDock Vina (Physics-based): 45.2 seconds
+   - DiffDock (AI Generative Model): 1.5 seconds
+   * Speedup Factor: 30.1x faster using AI
+
+2. STRUCTURAL ACCURACY (RMSD)
+   - AutoDock Vina (Physics-based): ~2.1 Å
+   - DiffDock (AI Generative Model): ~1.2 Å
+
+3. BINDING SCORE & CONFIDENCE
+   - AutoDock Vina (Physics-based) Affinity: -8.4 kcal/mol
+   - DiffDock (AI Generative Model) Confidence: 0.89 (Threshold > 0.5)
+
+==================================================
+SUMMARY FINDINGS:
+- AI-based DiffDock provides a ~30.1x speedup over grid search.
+- DiffDock shows tighter structural localization around Cys797 (RMSD 1.2 Å).
+==================================================
