@@ -1,0 +1,26 @@
+{
+    "total_screened": 5,
+    "top_hits": [
+        {
+            "id": "CMPD-001",
+            "name": "Osimertinib",
+            "smiles": "COC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)NC(=O)C=C",
+            "ai_confidence": 0.92,
+            "predicted_affinity_kcal_mol": -9.4
+        },
+        {
+            "id": "CMPD-003",
+            "name": "Afatinib",
+            "smiles": "CN(C)C/C=C/C(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)Cl)F)O[C@H]4CCOC4",
+            "ai_confidence": 0.88,
+            "predicted_affinity_kcal_mol": -8.9
+        },
+        {
+            "id": "CMPD-005",
+            "name": "Novel-Covalent-Candidate-A1",
+            "smiles": "CC(=O)NC1=CC=C(C=C1)Nc2ncnc3cc(OC)c(OC)cc23",
+            "ai_confidence": 0.85,
+            "predicted_affinity_kcal_mol": -8.6
+        }
+    ]
+}
