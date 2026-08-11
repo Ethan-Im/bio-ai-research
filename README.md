@@ -33,12 +33,12 @@ An end-to-end AI-driven drug discovery workflow targeting EGFR T790M (Cys797), i
 ## 🚀 How to Run the Complete Pipeline
 
 ### Option 1. One-Click Pipeline Execution
-```bash
+```
 python main.py
-'''
+```
 
 Option 2. Step-by-Step Execution
-Bash
+```
 # 1. Docking Benchmark
 python compare_docking_results.py
 
@@ -63,27 +63,21 @@ python run_molecule_optimization.py
 
 # Integrated Report Generation
 python pipeline_summary_report.py
-📁 Key Project Artifacts
-docking_performance_comparison.png: Visual benchmark plot (Vina vs DiffDock).
+```
 
-multi_target_selectivity_heatmap.png: Multi-target selectivity heatmap plot.
+## 📁 Key Project Artifacts
+- docking_performance_comparison.png: Visual benchmark plot (Vina vs DiffDock).
 
-virtual_screening_results.json: Screened top hits library data.
+- multi_target_selectivity_heatmap.png: Multi-target selectivity heatmap plot.
 
-admet_filtered_candidates.json: ADMET filtered drug candidates.
+- virtual_screening_results.json: Screened top hits library data.
 
-md_validated_candidates.json: 100ns MD trajectory validation data.
+- admet_filtered_candidates.json: ADMET filtered drug candidates.
 
-multi_target_screening_results.json: Off-target selectivity evaluation data.
+- md_validated_candidates.json: 100ns MD trajectory validation data.
 
-optimized_lead_analogs.json: AI generated optimized v2 lead compounds.
+- multi_target_screening_results.json: Off-target selectivity evaluation data.
 
-visualize_docking.pml: PyMOL automated rendering command file.
-md_validated_candidates.json: 100ns MD trajectory validation data.
+- optimized_lead_analogs.json: AI generated optimized v2 lead compounds.
 
-multi_target_screening_results.json: Off-target selectivity evaluation data.
-
-optimized_lead_analogs.json: AI generated optimized v2 lead compounds.
-
-visualize_docking.pml: PyMOL automated rendering command file.
-
+- visualize_docking.pml: PyMOL automated rendering command file.
