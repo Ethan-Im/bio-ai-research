@@ -25,11 +25,7 @@ def generate_final_summary():
             admet_data = json.load(f)
         approved = admet_data.get("approved_candidates", [])
         print("[Stage 3] ADMET & Lipinski Filtering")
-        print(f"  - Approved Drug Candidates: {len(approved)}/3")
-        for cand in approved:
-            props = cand.get("admet_properties", {})
-            print(f"    * {cand['id']} ({cand['name']}): MW={props.get('molecular_weight')} Da, LogP={props.get('logP')}")
-        print()
+        print(f"  - Approved Drug Candidates: {len(approved)}/3\n")
 
     # 4. MD Simulation Validation
     if os.path.exists("md_validated_candidates.json"):
@@ -45,9 +41,29 @@ def generate_final_summary():
     # 5. Visualization Script
     print("[Stage 5] 3D Structure Visualization")
     print("  - PyMOL Command Script Generated: visualize_docking.pml\n")
-    
+
+    # 6. Multi-Target Profiling
+    if os.path.exists("multi_target_screening_results.json"):
+        with open("multi_target_screening_results.json", "r", encoding="utf-8") as f:
+            mt_data = json.load(f)
+        mt_results = mt_data.get("multi_target_results", [])
+        print("[Stage 6] Multi-Target Selectivity Profiling")
+        for cand in mt_results:
+            print(f"  - {cand['id']} ({cand['name']}): Selectivity Verdict = [{cand.get('target_selectivity_verdict')}]")
+        print()
+
+    # 7. AI Lead Optimization
+    if os.path.exists("optimized_lead_analogs.json"):
+        with open("optimized_lead_analogs.json", "r", encoding="utf-8") as f:
+            opt_data = json.load(f)
+        top_variant = opt_data.get("optimized_variants", [])[0]
+        print("[Stage 7] AI De Novo Lead Optimization")
+        print(f"  - Top Variant Generated: {top_variant['variant_id']}")
+        print(f"  - Mod: {top_variant['modification']}")
+        print(f"  - Affinity: {top_variant['predicted_egfr_affinity_kcal_mol']} kcal/mol | Sol (logS): {top_variant['solubility_logS']}\n")
+
     print("==================================================")
-    print("🎉 END-TO-END BIO-AI PIPELINE EXECUTION SUCCESSFUL")
+    print("🎉 END-TO-END 7-STAGE BIO-AI PIPELINE COMPLETE!")
     print("==================================================")
 
 if __name__ == "__main__":
