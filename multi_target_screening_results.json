@@ -1,0 +1,94 @@
+{
+    "multi_target_results": [
+        {
+            "id": "CMPD-001",
+            "name": "Osimertinib",
+            "smiles": "COC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)NC(=O)C=C",
+            "ai_confidence": 0.92,
+            "predicted_affinity_kcal_mol": -9.4,
+            "admet_properties": {
+                "molecular_weight": 469.52,
+                "logP": 3.8,
+                "hbd": 2,
+                "hba": 6,
+                "herg_toxicity_risk": "Low",
+                "bbb_permeability": "Moderate",
+                "cyp3a4_inhibition": "Low"
+            },
+            "lipinski_violations": 0,
+            "md_simulation_results": {
+                "avg_rmsd_A": 1.45,
+                "rmsd_std": 0.12,
+                "hbond_occupancy_pct": 94.2,
+                "covalent_cys797_dist_A": 1.82
+            },
+            "md_stability_verdict": "STABLE BINDING",
+            "multi_target_affinities": {
+                "EGFR_T790M": -9.4,
+                "ALK_WT": -6.1,
+                "KRAS_G12C": -5.8
+            },
+            "target_selectivity_verdict": "HIGH SELECTIVITY"
+        },
+        {
+            "id": "CMPD-003",
+            "name": "Afatinib",
+            "smiles": "CN(C)C/C=C/C(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)Cl)F)O[C@H]4CCOC4",
+            "ai_confidence": 0.88,
+            "predicted_affinity_kcal_mol": -8.9,
+            "admet_properties": {
+                "molecular_weight": 485.94,
+                "logP": 4.2,
+                "hbd": 2,
+                "hba": 7,
+                "herg_toxicity_risk": "Low",
+                "bbb_permeability": "High",
+                "cyp3a4_inhibition": "Moderate"
+            },
+            "lipinski_violations": 0,
+            "md_simulation_results": {
+                "avg_rmsd_A": 1.88,
+                "rmsd_std": 0.25,
+                "hbond_occupancy_pct": 86.5,
+                "covalent_cys797_dist_A": 1.95
+            },
+            "md_stability_verdict": "STABLE BINDING",
+            "multi_target_affinities": {
+                "EGFR_T790M": -8.9,
+                "ALK_WT": -8.2,
+                "KRAS_G12C": -5.5
+            },
+            "target_selectivity_verdict": "MODERATE / DUAL TARGET"
+        },
+        {
+            "id": "CMPD-005",
+            "name": "Novel-Covalent-Candidate-A1",
+            "smiles": "CC(=O)NC1=CC=C(C=C1)Nc2ncnc3cc(OC)c(OC)cc23",
+            "ai_confidence": 0.85,
+            "predicted_affinity_kcal_mol": -8.6,
+            "admet_properties": {
+                "molecular_weight": 354.36,
+                "logP": 2.9,
+                "hbd": 1,
+                "hba": 5,
+                "herg_toxicity_risk": "Low",
+                "bbb_permeability": "Moderate",
+                "cyp3a4_inhibition": "Low"
+            },
+            "lipinski_violations": 0,
+            "md_simulation_results": {
+                "avg_rmsd_A": 1.21,
+                "rmsd_std": 0.08,
+                "hbond_occupancy_pct": 97.8,
+                "covalent_cys797_dist_A": 1.78
+            },
+            "md_stability_verdict": "STABLE BINDING",
+            "multi_target_affinities": {
+                "EGFR_T790M": -8.6,
+                "ALK_WT": -5.2,
+                "KRAS_G12C": -4.9
+            },
+            "target_selectivity_verdict": "HIGH SELECTIVITY"
+        }
+    ]
+}
