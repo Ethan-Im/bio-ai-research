@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "fitness": 8.47,
+      "affinity_pchembl": 9.06,
+      "herg_risk": 0.605,
+      "dili_risk": 0.592,
+      "penalties": 0.59,
+      "id": "SEED-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cccc3",
+      "admet_passed": false
+    },
+    {
+      "fitness": 8.63,
+      "affinity_pchembl": 9.05,
+      "herg_risk": 0.595,
+      "dili_risk": 0.544,
+      "penalties": 0.42,
+      "id": "SEED-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)C",
+      "admet_passed": false
+    },
+    {
+      "fitness": 8.19,
+      "affinity_pchembl": 8.68,
+      "herg_risk": 0.624,
+      "dili_risk": 0.538,
+      "penalties": 0.49,
+      "id": "SEED-03",
+      "smiles": "Cc1cc(Nc2nccc(n2)c3c[nH]c4ccccc34)ccc1C(=O)N",
+      "admet_passed": false
+    }
+  ]
+}
