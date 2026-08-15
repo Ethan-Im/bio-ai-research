@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "mw": 343.39,
+      "logp": 3.78,
+      "qed": 0.525,
+      "h_donors": 3,
+      "h_acceptors": 4,
+      "aromatic_rings": 4,
+      "herg_risk": 0.678,
+      "dili_risk": 0.566,
+      "fitness": 4.27,
+      "lipinski_violations": 0,
+      "total_penalty": 0.98,
+      "admet_passed": false,
+      "valid": true,
+      "id": "RDKIT-GEN1-02",
+      "smiles": "Cc1cc(Nc2nccc(n2)c3c[nH]c4ccccc34)ccc1C(=O)N"
+    },
+    {
+      "mw": 357.42,
+      "logp": 4.04,
+      "qed": 0.515,
+      "h_donors": 3,
+      "h_acceptors": 4,
+      "aromatic_rings": 4,
+      "herg_risk": 0.704,
+      "dili_risk": 0.569,
+      "fitness": 4.06,
+      "lipinski_violations": 0,
+      "total_penalty": 1.09,
+      "admet_passed": false,
+      "valid": true,
+      "id": "RDKIT-GEN2-01",
+      "smiles": "Cc1cc(Nc2nccc(n2)c3c[nH]c4ccccc34)ccc1C(=O)NC"
+    },
+    {
+      "mw": 357.42,
+      "logp": 4.04,
+      "qed": 0.515,
+      "h_donors": 3,
+      "h_acceptors": 4,
+      "aromatic_rings": 4,
+      "herg_risk": 0.704,
+      "dili_risk": 0.569,
+      "fitness": 4.06,
+      "lipinski_violations": 0,
+      "total_penalty": 1.09,
+      "admet_passed": false,
+      "valid": true,
+      "id": "RDKIT-GEN3-01",
+      "smiles": "Cc1cc(Nc2nccc(n2)c3c[nH]c4ccccc34)ccc1C(=O)NC"
+    }
+  ]
+}
