@@ -1,0 +1,104 @@
+{
+  "passed_candidates": [
+    {
+      "fitness": 9.04,
+      "affinity_pchembl": 9.04,
+      "herg_risk": 0.408,
+      "dili_risk": 0.347,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN1-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cc(O)cc3"
+    },
+    {
+      "fitness": 8.88,
+      "affinity_pchembl": 8.88,
+      "herg_risk": 0.208,
+      "dili_risk": 0.174,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN1-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)CO"
+    },
+    {
+      "fitness": 8.72,
+      "affinity_pchembl": 8.72,
+      "herg_risk": 0.363,
+      "dili_risk": 0.329,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN2-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cc(O)cc3O"
+    },
+    {
+      "fitness": 9.07,
+      "affinity_pchembl": 9.07,
+      "herg_risk": 0.177,
+      "dili_risk": 0.176,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN2-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)CO"
+    },
+    {
+      "fitness": 8.81,
+      "affinity_pchembl": 8.81,
+      "herg_risk": 0.367,
+      "dili_risk": 0.328,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN3-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cc(O)cc3O"
+    },
+    {
+      "fitness": 9.04,
+      "affinity_pchembl": 9.04,
+      "herg_risk": 0.214,
+      "dili_risk": 0.21,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN3-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)CO"
+    },
+    {
+      "fitness": 8.81,
+      "affinity_pchembl": 8.81,
+      "herg_risk": 0.317,
+      "dili_risk": 0.303,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN4-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cc(O)cc3O"
+    },
+    {
+      "fitness": 9.02,
+      "affinity_pchembl": 9.02,
+      "herg_risk": 0.199,
+      "dili_risk": 0.193,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN4-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)CO"
+    },
+    {
+      "fitness": 9.02,
+      "affinity_pchembl": 9.02,
+      "herg_risk": 0.33,
+      "dili_risk": 0.301,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN5-01",
+      "smiles": "CC(=O)Nc1ccc(cc1)c2nc3c(n2)cc(O)cc3O"
+    },
+    {
+      "fitness": 9.07,
+      "affinity_pchembl": 9.07,
+      "herg_risk": 0.144,
+      "dili_risk": 0.146,
+      "penalties": 0.0,
+      "admet_passed": true,
+      "id": "GEN5-02",
+      "smiles": "C=CC(=O)Nc1cc(Nc2nccc(n2)c3cn(C)c4ccccc34)c(cc1OC)N(C)CCN(C)COO"
+    }
+  ]
+}
